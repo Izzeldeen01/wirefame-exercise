@@ -1,0 +1,54 @@
+header{
+    position: relative;
+    height: 90px;
+    background-color: gray;
+    margin-bottom: 10px;
+    
+    
+}
+.headernav{
+    margin-top: -45px;
+}
+.navlist {
+    
+    display: inline;
+    float: right ;
+    padding-right : 200px  ;
+    
+
+}
+#logo {
+
+padding-top: 10px;
+padding-left: 50px;
+
+}
+#centeredimg {
+padding-left: 15%;
+}
+#imgdiv {
+    padding-left: 14.2%;
+}
+.imglist {
+    padding:1%;
+    
+}
+#lastdiv {
+    padding-left : 15%;
+    
+}
+#text {
+    float:right;
+font-size: 20px;
+    text-align:center; 
+    padding-right: 12%;
+    text-align: left;
+}
+footer {
+    
+    height: 90px;
+    background-color: gray;
+    
+       
+}
+    
