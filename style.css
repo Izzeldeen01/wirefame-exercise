@@ -6,10 +6,10 @@ header{
     
     
 }
-.headernav{
+header nav{
     margin-top: -45px;
 }
-.navlist {
+header li  {
     
     display: inline;
     float: right ;
@@ -17,27 +17,27 @@ header{
     
 
 }
-#logo {
+header img  {
 
 padding-top: 10px;
 padding-left: 50px;
 
 }
-#centeredimg {
-padding-left: 15%;
+main>img {
+padding-left: 14.2%;
 }
-#imgdiv {
-    padding-left: 14.2%;
+main>div {
+    padding-left: 15%;
 }
-.imglist {
-    padding:1%;
+main:nth-last-child()>img {
+    padding:10%;
     
 }
-#lastdiv {
+main:nth-last-child() {
     padding-left : 15%;
     
 }
-#text {
+p {
     float:right;
 font-size: 20px;
     text-align:center; 
