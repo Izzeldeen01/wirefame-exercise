@@ -23,32 +23,58 @@ padding-top: 10px;
 padding-left: 50px;
 
 }
+main {
+    text-align: center;
+}
 main>img {
-padding-left: 14.2%;
+text-align: center;
 }
 main>div {
-    padding-left: 15%;
+    padding-left :0.5% ;
+    text-align: center;
+    margin-top: 30px;
+}
+main:nth-child(2n)>img {
+    padding-left: 10px;
 }
 main:nth-last-child()>img {
-    padding:10%;
+    
+    width: 50%;
+  padding-right: 0%;
     
 }
 main:nth-last-child() {
     padding-left : 15%;
     
 }
+
 p {
+    z-index: 0;
+    position: relative;
     float:right;
-font-size: 20px;
-    text-align:center; 
+    padding-left: 0%;
+/* font-size: 20px;  */
     padding-right: 12%;
     text-align: left;
+    width: 30%;
+    padding-left: 0%;
+
 }
 footer {
-    
+    z-index: 1;
+    position: relative;
     height: 90px;
     background-color: gray;
+    width: 100%;
     
        
 }
-    
+    main button {
+        height: 25px;
+        width: 150px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: -175%;
+        right : 25% ;
+    }
